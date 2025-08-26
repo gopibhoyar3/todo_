@@ -44,3 +44,25 @@ node_modules/
 # -------- Tooling / Editors --------
 .vscode/
 .idea/
+
+cat > .gitignore << 'EOF'
+.DS_Store
+*.log
+node_modules/
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/build/
+**/.cache/
+**/*.tsbuildinfo
+**/coverage/
+**/.prisma/
+**/prisma/*.db
+**/prisma/*.db-journal
+**/.env
+**/.env.*
+!**/.env.example
+.vscode/
+.idea/
+EOF
