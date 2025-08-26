@@ -1,4 +1,4 @@
-# Todo App (Monorepo)
+# Todo App
 
 A simple, polished **Todo** application.
 
